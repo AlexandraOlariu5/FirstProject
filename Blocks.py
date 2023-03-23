@@ -1,6 +1,7 @@
 for i in range(1 , 13):
     print("No. {:<2} squared is {:<3} and cubed is {:<4}".format(i , i**2 , i**3))
     print("*" * 40)
+    print(i)
 print()
 name = input("Please enter your name: ")
 age = int(input("How old are you , {}? ".format(name)))
